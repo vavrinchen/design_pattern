@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{99E0F1DB-5C76-41FF-A86B-188B46E14391}</ProjectGuid>
-    <RootNamespace>abstractfactorypizza</RootNamespace>
+    <ProjectGuid>{6347E926-B3AF-43B4-953D-D1EA8D78BA4F}</ProjectGuid>
+    <RootNamespace>factorymethodpizza</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,47 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Cheese.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\CheesePizza.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaIngredientFactory.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaStore.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Clams.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Dough.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\FreshClams.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\FrozenClams.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Header.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MarinaraSauce.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MixVeggies.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MozzarellaCheese.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaIngredientFactory.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaStore.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Pizza.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaIngredientFactory.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaStore.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PlumTomatoSauce.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ReggianoCheese.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\RoyalVeggies.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Sauce.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ThickCrustDough.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ThinCrustDough.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\VeggiePizza.h" />
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Veggies.h" />
+    <ClCompile Include="ChicagoPizzaStore.cpp" />
+    <ClCompile Include="GenPizza.cpp" />
+    <ClCompile Include="NYPizzaStore.cpp" />
+    <ClCompile Include="Pizza.cpp" />
+    <ClCompile Include="PizzaStore.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Cheese.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\CheesePizza.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaIngredientFactory.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaStore.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Clams.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Dough.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\GenPizza.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaIngredientFactory.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaStore.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Pizza.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaStore.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Sauce.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\VeggiePizza.cpp" />
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Veggies.cpp" />
+    <ClInclude Include="ChicagoPizzaStore.h" />
+    <ClInclude Include="ChicagoStyleCheesePizza.h" />
+    <ClInclude Include="ChicagoStyleVeggiePizza.h" />
+    <ClInclude Include="NYPizzaStore.h" />
+    <ClInclude Include="NYStyleCheesePizza.h" />
+    <ClInclude Include="NYStyleVeggiePizza.h" />
+    <ClInclude Include="Pizza.h" />
+    <ClInclude Include="PizzaStore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

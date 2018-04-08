@@ -15,124 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Cheese.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\CheesePizza.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaIngredientFactory.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaStore.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Clams.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Dough.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\FreshClams.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\FrozenClams.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Header.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MarinaraSauce.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MixVeggies.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\MozzarellaCheese.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaIngredientFactory.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaStore.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Pizza.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaIngredientFactory.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaStore.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PlumTomatoSauce.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ReggianoCheese.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\RoyalVeggies.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Sauce.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ThickCrustDough.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ThinCrustDough.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\VeggiePizza.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Veggies.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaStore.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoPizzaStore.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPizzaStore.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="GenPizza.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Cheese.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\CheesePizza.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaIngredientFactory.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\ChicagoPizzaStore.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Clams.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Dough.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\GenPizza.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaIngredientFactory.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\NYPizzaStore.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Pizza.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\PizzaStore.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Sauce.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\VeggiePizza.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\factory_method_pizza - 複製\factory_method_pizza\Veggies.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
+    <ClInclude Include="Pizza.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaStore.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStyleCheesePizza.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoStyleVeggiePizza.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStyleCheesePizza.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="NYStyleVeggiePizza.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoPizzaStore.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="NYPizzaStore.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
