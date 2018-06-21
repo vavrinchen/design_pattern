@@ -43,13 +43,10 @@ class ChocolateBoiler {
 
 
 ChocolateBoiler& ChocolateBoiler::getInstance(){
-    if (s1 == nullptr){
-       s1 = new ChocolateBoiler();
-    } 
     return *s1;
 }
 
-ChocolateBoiler *ChocolateBoiler::s1 = nullptr;
+ChocolateBoiler *ChocolateBoiler::s1 = new ChocolateBoiler();
 
 int main()
 {
